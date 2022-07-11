@@ -1,0 +1,78 @@
+$themeRed: #dd0027;
+$themeRedLogoLeft: '/assets/images/common/img_logo_red_left.png';
+$themeRedLogoRight: '/assets/images/common/img_logo_red_right.png';
+$themeBlue: #004dd0;
+$themeBlueLogoLeft: '/assets/images/common/img_logo_blue_left.png';
+$themeBlueLogoRight: '/assets/images/common/img_logo_blue_right.png';
+
+.theme-test-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btn-theme {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #3a3a3a;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+  }
+}
+
+.theme-red {
+  header {
+    h1 {
+      a {
+        color: $themeRed;
+        &:before {
+          background: url($themeRedLogoLeft) no-repeat 50% 50% / 100% auto;
+        }
+        &:after {
+          background: url($themeRedLogoRight) no-repeat 50% 50% / 100% auto;
+        }
+      }
+    }
+  }
+  .login-logo {
+    color: $themeRed !important;
+    &:before {
+      background: url($themeRedLogoLeft) no-repeat 50% 50% / 100% auto !important;
+    }
+    &:after {
+      background: url($themeRedLogoRight) no-repeat 50% 50% / 100% auto !important;
+    }
+  }
+  .btn-login {
+    background-color: $themeRed !important;
+  }
+}
+
+.theme-blue {
+  header {
+    h1 {
+      a {
+        color: $themeBlue;
+        &:before {
+          background: url($themeBlueLogoLeft) no-repeat 50% 50% / 100% auto;
+        }
+        &:after {
+          background: url($themeBlueLogoRight) no-repeat 50% 50% / 100% auto;
+        }
+      }
+    }
+  }
+  .login-logo {
+    color: $themeBlue !important;
+    &:before {
+      background: url($themeBlueLogoLeft) no-repeat 50% 50% / 100% auto !important;
+    }
+    &:after {
+      background: url($themeBlueLogoRight) no-repeat 50% 50% / 100% auto !important;
+    }
+  }
+  .btn-login {
+    background-color: $themeBlue !important;
+  }
+}

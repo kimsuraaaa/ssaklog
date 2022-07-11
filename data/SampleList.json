@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "DNS (Domain Name System Servers)",
+    "text": "URL들의 이름과 IP주소를 저장하고 있는 데이터베이스로, 웹사이트 주소록 개념 IP주소와 URL주소를 매핑해주는 역할",
+    "image": "/assets/images/list/img_list_dns.png"
+  },
+  {
+    "id": 2,
+    "title": "Github Pages란?",
+    "text": "깃허브(Git Hub)는 깃(소프트웨어 개발에서 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템)을 좀 더 편하게 이용하도록 만든 깃 서버 웹 호스팅 서비스이고 오픈소스 소프트웨어의 중심지(hub) 역할을 하면서 오픈소스 프로젝트가 널리 퍼지는 데 크게 기여하고 있는 서비스입니다.깃허브 페이지(GitHub Pages)는 이러한 깃허브에서 제공하는 정적 사이트 호스팅 서비스로 일반적인 HTML 콘텐츠를 지원하는 것 외에도 인기있는 정적 사이트 생성기인 Jekyll을 지원합니다.",
+    "image": "/assets/images/list/img_list_githubpages.png"
+  },
+  {
+    "id": 3,
+    "title": "Nextjs",
+    "text": "NextJS + Typescript 환경에서 styled-components 적용",
+    "image": "/assets/images/list/img_list_nextjs.png"
+  },
+  {
+    "id": 4,
+    "title": "웹페이지 구성 및 Rendering 이해",
+    "text": "웹페이지 구성 방식에 대해 먼저 알아보자.",
+    "image": "/assets/images/list/img_list_rendertree.png"
+  },
+  {
+    "id": 5,
+    "title": "웹페이지 구성 및 Rendering 이해",
+    "text": "웹페이지 구성 방식에 대해 먼저 알아보자."
+  },
+  {
+    "id": 6,
+    "title": "웹페이지 구성 및 Rendering 이해",
+    "text": "웹페이지 구성 방식에 대해 먼저 알아보자."
+  },
+  {
+    "id": 7,
+    "title": "웹페이지 구성 및 Rendering 이해",
+    "text": "웹페이지 구성 방식에 대해 먼저 알아보자."
+  }
+]
